@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Lora400;
+    src: url(./assets/fonts/Lora-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Oxygen400;
+    src: url(./assets/fonts/Oxygen-Regular.ttf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a,
+  button {
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button {
+    border: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .container {
+    max-width: 988px;
+    width: 100%;
+    padding: 0 8px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      padding: 0 16px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      padding: 0 24px;
+    }
+  }

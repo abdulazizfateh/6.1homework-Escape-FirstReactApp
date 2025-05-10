@@ -1,0 +1,31 @@
+.section_category {
+    background-color: #fff;
+}
+
+.category_list {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    overflow: auto;
+}
+
+.category_item {
+    font-family: Lora400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #768088;
+}
+
+@media (min-width: 768px) {
+    .category_list {
+        height: 64px;
+        gap: 45px;
+    }
+
+    .category_item {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

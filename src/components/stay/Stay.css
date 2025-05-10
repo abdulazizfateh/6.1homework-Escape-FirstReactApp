@@ -1,0 +1,117 @@
+.section_stay {
+    background: url(../../assets/images/stay-bg.png) no-repeat center/cover fixed;
+    position: relative;
+}
+
+.stay_wrapper {
+    width: 100%;
+    min-height: 378px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.stay_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        font-family: Oxygen400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #EFEFEF;
+        border-bottom: 1px solid #DEDEDE;
+        padding-bottom: 10px;
+    }
+}
+
+.stay_form {
+    width: 70%;
+    height: 40px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+.stay_form_email_input {
+    width: 75%;
+    height: 100%;
+    text-indent: 14px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Oxygen400;
+    font-size: 10px;
+    color: black;
+
+    ::placeholder {
+        color: #817F83;
+    }
+}
+
+.stay_form_submit_btn {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #FFFFFF47;
+    font-family: Oxygen400;
+    font-size: 10px;
+    color: #F8F8F8;
+}
+
+
+@media (min-width: 640px) {
+    .stay_wrapper {
+        gap: 16px;
+        padding-bottom: 70px;
+    }
+
+    .stay_title {
+        h2 {
+            font-size: 20px;
+            line-height: 25px;
+            padding-bottom: 13px;
+        }
+    }
+
+    .stay_form {
+        width: 500px;
+        height: 45px;
+    }
+
+    .stay_form_email_input {
+        text-indent: 22px;
+        font-size: 12px;
+    }
+
+    .stay_form_submit_btn {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .stay_wrapper {
+        gap: 20px;
+        padding-bottom: 89px;
+    }
+
+    .stay_title {
+        h2 {
+            font-size: 25px;
+            line-height: 30px;
+            padding-bottom: 18px;
+        }
+    }
+
+    .stay_form_email_input {
+        text-indent: 35px;
+    }
+}
